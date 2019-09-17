@@ -61,7 +61,7 @@ let fillCenter = function (targetC) {
     h1.appendChild(txt); // put on tree
 
     let par = document.createElement('p'); // create element
-    txt = document.createTextNode("You could have four columns here but you won't. You'll have three like everyone else."); // create text
+    txt = document.createTextNode("Click here and look what happens"); // create text
     par.style.color = 'yellow';
     par.appendChild(txt); // put onto tree
 
@@ -99,7 +99,7 @@ let fillRight = function (targetR) {
     h1.appendChild(txt); // put on tree
 
     let par = document.createElement('p'); // create element
-    txt = document.createTextNode("You could have four columns here but you won't. You'll have three like everyone else."); // create text
+    txt = document.createTextNode("Click here and look what happens"); // create text
     par.appendChild(txt); // put onto tree
 
     art.appendChild(img);
